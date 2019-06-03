@@ -45,6 +45,7 @@ public class Dealer {
         if(isGameEnded) {
             for(int card : dealerCards) {
                 System.out.print(card + " ");
+                BlackJack.dealerInstruction.append(card + " ");
             }
         } else throw new IllegalAccessException();
     }
